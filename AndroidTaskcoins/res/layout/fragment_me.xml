@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cWhite"
+    android:orientation="vertical" >
+    <include 
+        android:id="@+id/tv_group"
+        layout="@layout/layout_titlebar_2"/>
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/cWhite"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="昵称" />
+        <TextView 
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已审核"/>
+        <EditText 
+            android:id="@+id/et_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="男"
+            android:hint="请输入男或女"/>
+        <Button 
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="审核"/>
+    </LinearLayout>
+
+</LinearLayout>
